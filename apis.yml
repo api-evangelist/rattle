@@ -1,7 +1,26 @@
 aid: rattle
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rattle.png
 name: Rattle
-description: Rattle is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Rattle is a sales-execution platform that positions itself as "the AI layer your
+  CRM always needed," connecting Salesforce and Slack so revenue teams can automate
+  RevOps workflows, keep CRM data accurate, and surface deal insights in real time.
+  AI agents drive alerts, data validation, deal-risk assessment, and meeting
+  intelligence from inside Slack. Rattle is backed by GV (Google Ventures). As of
+  this enrichment pass Rattle exposes no public developer API, SDKs, or API
+  reference; this profile captures the company's public web, security/compliance,
+  and operational-transparency surface.
 url: https://raw.githubusercontent.com/api-evangelist/rattle/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Sales
+- RevOps
+- CRM
+- Salesforce
+- Slack
+- Sales Automation
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +48,29 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://gorattle.com
+  url: https://www.gorattle.com
+- type: Login
+  url: https://app.gorattle.com/
+- type: Support
+  url: https://help.gorattle.com/
+- type: Blog
+  url: https://www.gorattle.com/blog
+- type: TermsOfService
+  url: https://www.gorattle.com/terms
+- type: PrivacyPolicy
+  url: https://www.gorattle.com/privacy-policy
+- type: StatusPage
+  url: https://status.gorattle.com/
+- type: Lifecycle
+  url: lifecycle/rattle-lifecycle.yml
+- type: TrustCenter
+  url: security/rattle-trust-center.yml
+- type: Compliance
+  url: https://www.gorattle.com/security
+- type: DomainSecurity
+  url: security/rattle-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

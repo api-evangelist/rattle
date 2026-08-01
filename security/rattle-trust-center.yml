@@ -1,0 +1,25 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://www.gorattle.com/security
+url: https://www.gorattle.com/security
+certifications:
+- SOC 2
+- ISO 27001
+- GDPR
+practices:
+- Encryption at rest and in transit (TLS 1.2/HTTPS)
+- Annual third-party penetration testing
+- Role-based access controls
+- SAML 2.0 SSO / MFA
+- Daily encrypted backups on Amazon S3
+- Documented incident response process
+- Security awareness training and employee background checks
+evidence:
+- source: https://www.gorattle.com/security
+  keywords:
+  - soc 2
+  - iso 27001
+  - gdpr
+  - trust center
+  - penetration testing

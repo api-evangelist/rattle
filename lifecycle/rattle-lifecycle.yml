@@ -1,0 +1,8 @@
+generated: '2026-07-20'
+method: searched
+source: https://status.gorattle.com/
+status_page: https://status.gorattle.com/
+notes: >-
+  Rattle publishes a public status page. No public API, versioning policy,
+  deprecation policy, or SLA document was found on the provider surface as of
+  this pass; Rattle is a sales-execution SaaS with no public developer API.
