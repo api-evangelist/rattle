@@ -13,14 +13,21 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rattle.png
 name: Rattle
 description: >-
-  Rattle is a sales-execution platform that positions itself as "the AI layer your
-  CRM always needed," connecting Salesforce and Slack so revenue teams can automate
-  RevOps workflows, keep CRM data accurate, and surface deal insights in real time.
-  AI agents drive alerts, data validation, deal-risk assessment, and meeting
-  intelligence from inside Slack. Rattle is backed by GV (Google Ventures). As of
-  this enrichment pass Rattle exposes no public developer API, SDKs, or API
-  reference; this profile captures the company's public web, security/compliance,
-  and operational-transparency surface.
+  Rattle is a sales-execution and revenue-workflow platform that positions itself as
+  "the AI layer your CRM always needed," connecting Salesforce with Slack and Microsoft
+  Teams so revenue teams can automate RevOps workflows, keep CRM data accurate, and
+  surface deal insights in real time. AI features — Wizard, Smart Context, Meeting
+  Intelligence, Deal Rooms, Board and Leaderboard — drive alerts, field auto-update,
+  deal-risk assessment and call summarization from inside the chat client. In May 2026
+  the company rebranded its forward product to Von (vonlabs.ai), an "AI RevOps
+  teammate" that connects to CRM, call recordings and the data warehouse; Rattle
+  remains fully supported for existing customers. Rattle is backed by GV (Google
+  Ventures), Insight Partners, Sequoia and Lightspeed. As of this enrichment pass
+  neither Rattle nor Von exposes a public developer API, SDK, webhook catalog or API
+  reference — probes of api.gorattle.com, api.vonlabs.ai and every documented host
+  returned no machine-readable contract — so this profile captures the company's
+  public web, help-center, release-note, security/compliance and
+  operational-transparency surface.
 url: https://raw.githubusercontent.com/api-evangelist/rattle/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -30,7 +37,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-08-13'
+x-rebrand:
+  new_name: Von
+  new_domain: https://vonlabs.ai/
+  announced: '2026-05-29'
+  source: https://vonlabs.ai/blog/rattle-to-von
+  note: >-
+    Forward product, positioning and hiring moved to Von (Von Labs) in May 2026;
+    gorattle.com, app.gorattle.com and help.gorattle.com remain live and Rattle
+    remains supported for existing customers. Probed 2026-08-13.
 tags:
 - Company
 - Sales
@@ -38,7 +54,10 @@ tags:
 - CRM
 - Salesforce
 - Slack
+- Microsoft Teams
 - Sales Automation
+- Revenue Intelligence
+- Workflow Automation
 - Artificial Intelligence
 apis: []
 maintainers:
@@ -53,6 +72,10 @@ common:
   url: https://app.gorattle.com/
 - type: Support
   url: https://help.gorattle.com/
+- type: Documentation
+  url: https://help.gorattle.com/
+- type: SignUp
+  url: https://www.gorattle.com/get-started
 - type: Blog
   url: https://www.gorattle.com/blog
 - type: TermsOfService
@@ -61,6 +84,16 @@ common:
   url: https://www.gorattle.com/privacy-policy
 - type: StatusPage
   url: https://status.gorattle.com/
+- type: ChangeLog
+  url: https://help.gorattle.com/en/collections/7377751-weekly-release-notes
+- type: ChangeLog
+  url: changelog/rattle-changelog.yml
+- type: LLMsTxt
+  url: llms/rattle-llms.txt
+- type: LLMsTxt
+  url: https://help.gorattle.com/llms.txt
+- type: Conformance
+  url: conformance/rattle-conformance.yml
 - type: Lifecycle
   url: lifecycle/rattle-lifecycle.yml
 - type: TrustCenter
@@ -70,7 +103,29 @@ common:
 - type: DomainSecurity
   url: security/rattle-domain-security.yml
 x-enrichment:
-  date: '2026-07-20'
+  date: '2026-08-13'
   status: enriched
-  artifacts_added: 3
+  artifacts_added: 6
   pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    Rattle (and its successor brand Von) ships only an end-user Slack/Teams app over a
+    customer's own Salesforce tenant — api.gorattle.com does not resolve at all, and
+    api.vonlabs.ai answers as a bare nginx origin that 404s /openapi.json,
+    /swagger.json, /docs, /redoc, /api-docs, /mcp and every /.well-known path, so there
+    is no developer portal, API reference, SDK, webhook catalog or machine-readable
+    contract anywhere on either brand.
+  evidence:
+  - url: https://api.vonlabs.ai/openapi.json
+    status: 404
+  - url: https://www.gorattle.com/api
+    status: 404
+  - url: https://www.gorattle.com/developers
+    status: 404
+  - url: https://vonlabs.ai/.well-known/agent-card.json
+    status: 404
+  - url: https://help.gorattle.com/llms.txt
+    status: 200
+  checked: '2026-08-13'
