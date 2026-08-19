@@ -1,13 +1,20 @@
-generated: '2026-07-20'
+generated: '2026-08-13'
 method: probed
-source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+source: live DNS/TLS/HTTP probes of apis.yml hosts + the Von (vonlabs.ai) successor domain
 hosts:
-- host: gorattle.com
+- host: www.gorattle.com
   https: true
   tls_version: TLSv1.3
-  cert_expires: Oct 11 19:50:19 2026 GMT
+  cert_expires: Oct 11 19:51:40 2026 GMT
   hsts: true
   hsts_max_age: 31536000
+- host: vonlabs.ai
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct 27 23:22:18 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+  note: successor brand host (Rattle rebranded its forward product to Von, 2026-05-29)
 domains:
 - domain: gorattle.com
   dnssec: true
@@ -15,3 +22,20 @@ domains:
   spf: true
   dmarc: true
   dmarc_policy: quarantine
+- domain: vonlabs.ai
+  dnssec: false
+  caa:
+  - 0 issue "pki.goog"
+  - 0 issue "amazon.com"
+  - 0 issue "amazonaws.com"
+  - 0 issue "amazontrust.com"
+  - 0 issue "awstrust.com"
+  - 0 issue "letsencrypt.org"
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine
+notes: >-
+  gorattle.com is DNSSEC-signed but publishes no CAA record; vonlabs.ai publishes a
+  six-issuer CAA set but is not DNSSEC-signed. Both enforce HSTS with a one-year
+  max-age and negotiate TLS 1.3. No security.txt is served on either registrable
+  domain (see well-known/rattle-well-known.yml).

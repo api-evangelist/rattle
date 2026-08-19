@@ -1,0 +1,25 @@
+generated: '2026-08-13'
+method: searched
+source: https://www.gorattle.com/book-a-pricing-call
+evidence:
+- {url: 'https://www.gorattle.com/pricing', status: 200, note: redirects to https://www.gorattle.com/ — no pricing page exists}
+- {url: 'https://vonlabs.ai/pricing', status: 404}
+- {url: 'https://www.gorattle.com/book-a-pricing-call', status: 200}
+- {url: 'https://vonlabs.ai/contact', status: 200}
+plan_count: 0
+currency: null
+plans: []
+note: >-
+  Neither Rattle nor Von publishes tiers, list prices, quotas or overage terms. Pricing
+  is sales-gated on both brands: gorattle.com/pricing resolves to the homepage and the
+  only pricing surface is the "Book a pricing call" form at
+  https://www.gorattle.com/book-a-pricing-call; vonlabs.ai has no /pricing page and
+  routes to https://vonlabs.ai/contact. A related seat/usage limit IS documented — the
+  help center describes an "active rule limit" that customers must ask Rattle to raise
+  (https://help.gorattle.com/en/articles/6060531-i-reached-the-active-rule-limit-how-can-i-increase-it)
+  — but no numeric entitlement is published. Recorded as an honest zero, not an
+  unchecked field.
+no_pointer_reason: >-
+  Deliberately NOT wired as type: Plans or type: Pricing in apis.yml — there is no
+  pricing page to point at, and a pointer over a zero-plan artifact would read as a
+  published pricing surface that does not exist.

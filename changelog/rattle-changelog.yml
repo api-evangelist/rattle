@@ -1,0 +1,69 @@
+generated: '2026-08-13'
+method: searched
+source: https://help.gorattle.com/en/collections/7377751-weekly-release-notes
+docs: https://help.gorattle.com/
+index: https://help.gorattle.com/llms.txt
+scheme: dated
+versioning: none
+current_version: null
+note: >-
+  Rattle publishes dated product release notes as a "Weekly release notes" collection
+  in its Intercom help center. There is no semantic version, no API version, and no
+  RSS/Atom feed of releases beyond the help-center feed; the collection is discoverable
+  through https://help.gorattle.com/llms.txt. Publication has been irregular — the most
+  recent entry indexed on 2026-08-13 is dated 2025-06-28. The Von brand
+  (https://vonlabs.ai) publishes no changelog of its own; four Von onboarding articles
+  were added to the same Rattle help center in December 2025.
+cadence_observed: irregular (weekly cadence stated, ~6 entries indexed 2024-03 through 2025-06)
+entries:
+- date: '2025-06-28'
+  title: 'Release Notes: June 28, 2025'
+  url: https://help.gorattle.com/en/articles/11672247-release-notes-june-28-2025
+  breaking: false
+  areas: [Rattle AI, Meeting Intelligence]
+  highlights:
+  - Rattle Wizard can write the AI's reasoning for every field update back to Salesforce
+  - AI reasoning available as a separate column in Rattle Wizard
+  - Meeting Intelligence can force English translation of summaries and custom-prompt output before posting to Slack
+- date: '2025-06-25'
+  title: 'Release Notes: June 25, 2025'
+  url: https://help.gorattle.com/en/articles/11647070-release-notes-june-25-2025
+  breaking: false
+  areas: [Rattle AI, Integrations]
+  highlights:
+  - 'Smart Context: auto-generated explanation of why an alert fired (Create/Update and time-based workflows, Opportunity object)'
+  - 'Ask AI from Slack on AI-powered messages (Opportunity object)'
+  - Clari Co-pilot integration for Wizard and Meeting Intelligence
+- date: '2024-06-21'
+  title: 'Release Notes: Jun 21, 2024'
+  url: https://help.gorattle.com/en/articles/9506221-release-notes-jun-21-2024
+  breaking: false
+  areas: [Board, Digest, Workflows]
+  highlights:
+  - Admin controls for Board feature access
+  - Digest workflow revamp — conditions set directly on the digest
+  - Board keyboard shortcuts, character counts and new filter conditions
+  - "'Create object' button in workflows now supports any object, not only related objects"
+- date: '2024-05-27'
+  title: 'Release Notes: May 27, 2024'
+  url: https://help.gorattle.com/en/articles/9383637-release-notes-may-27-2024
+  breaking: false
+  areas: [Meeting Intelligence, Workflows]
+  highlights:
+  - Salesforce message fields supported on Meeting Intelligence workflows
+  - Multiple contact selection on Task and Event objects
+  - Calculated fields usable in time-based and stage-stuck workflow conditions
+- date: '2024-03-12'
+  title: 'Release Notes: March 12, 2024'
+  url: https://help.gorattle.com/en/articles/9056543-release-notes-march-12-2024
+  breaking: false
+  areas: [Integrations, Rattle AI, Workflows, Admin]
+  highlights:
+  - Clari integration, AI call signals, workflows and admin controls
+- date: '2024-03-05'
+  title: 'Release Notes: March 5, 2024'
+  url: https://help.gorattle.com/en/articles/9033597-release-notes-march-5-2024
+  breaking: false
+  areas: [Integrations, Board]
+  highlights:
+  - Clari integration, child records, meeting DMs and Board

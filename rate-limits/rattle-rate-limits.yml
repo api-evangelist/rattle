@@ -1,0 +1,21 @@
+generated: '2026-08-13'
+method: searched
+source: https://help.gorattle.com/llms.txt
+limit_count: 0
+limits: []
+headers: []
+note: >-
+  Rattle and Von publish no public API, so there is no request quota, no rate-limit
+  response header (no X-RateLimit-*, RateLimit-* or Retry-After surface) and no
+  documented 429 behavior to record. The nearest published constraint is a product
+  entitlement rather than an API limit: the help center documents an "active rule
+  limit" on workflows that customers must contact Rattle to raise
+  (https://help.gorattle.com/en/articles/6060531-i-reached-the-active-rule-limit-how-can-i-increase-it),
+  with no number given. Recorded as an honest zero after searching the full help-center
+  index at https://help.gorattle.com/llms.txt and probing every Rattle/Von host for an
+  API contract on 2026-08-13.
+no_pointer_reason: >-
+  Deliberately NOT wired as type: RateLimits in apis.yml. The agent-readiness
+  rate_limit_signal check credits the presence of a RateLimits pointer; awarding it for
+  a file that documents the ABSENCE of any rate-limit contract would be the same
+  false-credit pattern as a WellKnown pointer over an all-404 probe.

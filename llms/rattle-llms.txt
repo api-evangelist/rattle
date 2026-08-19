@@ -1,0 +1,134 @@
+# Rattle Help Center
+
+> Get answers to all your questions
+
+## Von Help Center
+
+- [How to Connect Salesforce to Von](https://help.gorattle.com/en/articles/13008295-how-to-connect-salesforce-to-von.md): This guide will walk you through connecting your Salesforce account to Von for revenue intelligence and data analysis.
+- [How to Connect Gong to Von](https://help.gorattle.com/en/articles/13008738-how-to-connect-gong-to-von.md): This guide will walk you through connecting your Gong account to Von for conversation intelligence and call transcript analysis.
+- [How to Invite Team Members to Von](https://help.gorattle.com/en/articles/13016387-how-to-invite-team-members-to-von.md): This guide will walk you through inviting team members to your Von account so they can access revenue intelligence insights.
+- [Approving Von as a Connected App](https://help.gorattle.com/en/articles/13133800-approving-von-as-a-connected-app.md): New security measures introduced in September 2025
+
+## Getting started
+
+- [Setting up a Rattle account and integrating Salesforce and Slack](https://help.gorattle.com/en/articles/5671072-setting-up-a-rattle-account-and-integrating-salesforce-and-slack.md): Starting steps to a create Rattle account and integrate with Salesforce and Slack.
+- [Slack: Accepting a Rattle invite and integrating Salesforce](https://help.gorattle.com/en/articles/6254793-slack-accepting-a-rattle-invite-and-integrating-salesforce.md): This article describes how an invited member user can set-up their Rattle account.
+- [MS Teams: Accepting a Rattle invite and integrating Salesforce](https://help.gorattle.com/en/articles/7041486-ms-teams-accepting-a-rattle-invite-and-integrating-salesforce.md): How to Sign up for Rattle as a MS Teams user
+- [Salesforce: Permissions needed to integrate with Rattle](https://help.gorattle.com/en/articles/5670789-salesforce-permissions-needed-to-integrate-with-rattle.md): Pre-requisites to get started with Rattle
+- [What does the Homepage tell me?](https://help.gorattle.com/en/articles/8925384-what-does-the-homepage-tell-me.md)
+- [Approving Rattle as a Connected App](https://help.gorattle.com/en/articles/12292789-approving-rattle-as-a-connected-app.md): New security measures introduced in September 2025
+
+## Using Rattle
+
+- [Rattle No Flow Architecture](https://help.gorattle.com/en/articles/9813815-rattle-no-flow-architecture.md): Choose an alternate approach to implementing Rattle at your company.
+- [One Flow per Object Strategy](https://help.gorattle.com/en/articles/9245348-one-flow-per-object-strategy.md): Lower the number of Flows created by Rattle on Salesforce by switching to the One Flow per Object strategy.
+- [Using Create/Update workflows](https://help.gorattle.com/en/articles/5671362-using-create-update-workflows.md): Learn about Create/Update Rattle type and when to use them
+- [Using Time-Based alerts](https://help.gorattle.com/en/articles/6299041-using-time-based-alerts.md): Learn when and how to use time-based workflows
+- [What is a "Stuck in Stage" rattle and how to create it?](https://help.gorattle.com/en/articles/5674849-what-is-a-stuck-in-stage-rattle-and-how-to-create-it.md): Learn about "Stuck in Stage" rattle type
+- [Creating a Moment-in-time alert with a Board view](https://help.gorattle.com/en/articles/6578015-creating-a-moment-in-time-alert-with-a-board-view.md): Combine your notifications into a single alert and automatically generate a board view of the relevant records.
+- [Summary workflows: Always stay in the loop](https://help.gorattle.com/en/articles/8836981-summary-workflows-always-stay-in-the-loop.md): Learn how to use Summary workflows to track changes in multiple records within Salesforce
+- [How to utilize the Acknowledge Button](https://help.gorattle.com/en/articles/6649770-how-to-utilize-the-acknowledge-button.md): How to add and utilize the Acknowledge Button for notifications
+- [How to use action buttons?](https://help.gorattle.com/en/articles/5674863-how-to-use-action-buttons.md): This article will guide you through using action buttons and share sample use-cases.
+- [How to use message analytics?](https://help.gorattle.com/en/articles/5674973-how-to-use-message-analytics.md): This article will guide you through using message analytics
+- [Rattle Threaded Messages](https://help.gorattle.com/en/articles/7897941-rattle-threaded-messages.md): Reply in thread to Rattle messages with Rattle!
+- [Creating a Pushed out of Quarter Workflow](https://help.gorattle.com/en/articles/6463904-creating-a-pushed-out-of-quarter-workflow.md): Promote better visibility on pipeline movement that impacts forecasting
+- [Outreach: Setting up a workflow](https://help.gorattle.com/en/articles/6450927-outreach-setting-up-a-workflow.md): Learn how to use the Outreach action buttons to level up your prospect alerts.
+- [How to use your Zendesk Integration with Rattle](https://help.gorattle.com/en/articles/6778685-how-to-use-your-zendesk-integration-with-rattle.md): How to use your Zendesk Integration with Rattle
+- [How to build Reports on Rattle?](https://help.gorattle.com/en/articles/5688422-how-to-build-reports-on-rattle.md): This article covers sending your Salesforce report in Slack
+- [How do I use an Approval alert?](https://help.gorattle.com/en/articles/6299083-how-do-i-use-an-approval-alert.md): Learn more about the approvals feature!
+- [How do I track my team's progress using Leaderboard?](https://help.gorattle.com/en/articles/6968241-how-do-i-track-my-team-s-progress-using-leaderboard.md): Learn about the two different types of Leaderboards, their purpose and how to set them up.
+- [How to set up Enablement workflows?](https://help.gorattle.com/en/articles/7731038-how-to-set-up-enablement-workflows.md)
+- [How to use Rattle's Commands on Slack?](https://help.gorattle.com/en/articles/5674972-how-to-use-rattle-s-commands-on-slack.md): Learn how to configure Commands and have data at your fingertips
+- [Adding Child records to your workflows](https://help.gorattle.com/en/articles/9003798-adding-child-records-to-your-workflows.md)
+- [How do I add my MS Teams group chat as a workflow recipient?](https://help.gorattle.com/en/articles/9127431-how-do-i-add-my-ms-teams-group-chat-as-a-workflow-recipient.md): Learn how to add the Rattle bot to your MS Teams group chat, to make it discoverable on Rattle
+- [Smart Context](https://help.gorattle.com/en/articles/11672230-smart-context.md)
+- [Rattle Wizard - Beta](https://help.gorattle.com/en/articles/10010736-rattle-wizard-beta.md)
+- [Meeting intelligence - Building workflows](https://help.gorattle.com/en/articles/8428433-meeting-intelligence-building-workflows.md): Send unique meeting summaries based on team and role needs.
+- [Meeting Intelligence - Advanced settings](https://help.gorattle.com/en/articles/7992714-meeting-intelligence-advanced-settings.md)
+- [Use Call Signals to gauge customer sentiment](https://help.gorattle.com/en/articles/9041686-use-call-signals-to-gauge-customer-sentiment.md): Learn how to apply opinion mining filters, to sift through and identify the most critical calls.
+- [Troubleshoot - How does Rattle identify the right Opportunity for my Zoom calls](https://help.gorattle.com/en/articles/8635554-troubleshoot-how-does-rattle-identify-the-right-opportunity-for-my-zoom-calls.md): Learn how Rattle matches the correct Opportunity on Salesforce to give you Meeting Intelligence
+- [How to configure Zoom to receive Meeting Intelligence](https://help.gorattle.com/en/articles/9101318-how-to-configure-zoom-to-receive-meeting-intelligence.md): Learn how to set up your Zoom console at the start of each call
+- [Meeting Intelligence: Crafting the Perfect Prompt](https://help.gorattle.com/en/articles/8657699-meeting-intelligence-crafting-the-perfect-prompt.md)
+- [How do I set up Deal Intelligence?](https://help.gorattle.com/en/articles/9214845-how-do-i-set-up-deal-intelligence.md): Learn about Deal summaries, when to use one, and how to set up a workflow.
+- [Setting up a Deal Room](https://help.gorattle.com/en/articles/6029891-setting-up-a-deal-room.md): Read this article to learn more about the Deal rooms feature and how to set them up!
+- [Building trigger actions for Deal Rooms](https://help.gorattle.com/en/articles/7049520-building-trigger-actions-for-deal-rooms.md): Read this article to learn more about the automations Deal Rooms offer!
+- [How to get the most out of Deal Rooms](https://help.gorattle.com/en/articles/7061305-how-to-get-the-most-out-of-deal-rooms.md): So you just got added to a Deal Room - read on to learn how to use deal rooms to drive deal execution.
+- [Deal Room File Upload](https://help.gorattle.com/en/articles/6282095-deal-room-file-upload.md): Learn how to upload files to SFDC directly from Deal Rooms in Slack
+- [Deal Room Bookmarks](https://help.gorattle.com/en/articles/6282078-deal-room-bookmarks.md): Learn about the Deal Room Bookmarks feature
+- [Slack permissions needed to 'Remove channel members' in Deal Rooms](https://help.gorattle.com/en/articles/8146177-slack-permissions-needed-to-remove-channel-members-in-deal-rooms.md)
+- [How to route workflow notifications to Deal Rooms](https://help.gorattle.com/en/articles/6219079-how-to-route-workflow-notifications-to-deal-rooms.md)
+- [Which type of Deal Room works for me?](https://help.gorattle.com/en/articles/9085155-which-type-of-deal-room-works-for-me.md): Learn how to create a team, channel or chat dedicated to a deal, within MS Teams.
+- [An intro to Board - Unified data views](https://help.gorattle.com/en/articles/8360740-an-intro-to-board-unified-data-views.md): This articles talks about Board and any pre-requisites needed to use Board.
+- [Board - Using views](https://help.gorattle.com/en/articles/8360804-board-using-views.md): Here, we talk about creation, navigation and deletion of views that are created in a Board.
+- [Board - Filtering a view](https://help.gorattle.com/en/articles/8361003-board-filtering-a-view.md)
+- [Board - Editing a View](https://help.gorattle.com/en/articles/8361015-board-editing-a-view.md)
+- [How to use Digest?](https://help.gorattle.com/en/articles/8310330-how-to-use-digest.md): Solve CRM hygiene with a single, actionable alert.
+- [What are "Meetings" workflows and how to use these?](https://help.gorattle.com/en/articles/5689622-what-are-meetings-workflows-and-how-to-use-these.md): This article walks you through what "Meetings" workflows are, and how to get started with these.
+- [How to use the "Auto Create Contact" feature](https://help.gorattle.com/en/articles/6044992-how-to-use-the-auto-create-contact-feature.md): Read this article if you are interested in implementing the auto-create contact feature.
+- [How to use the "Auto-Create Event" feature](https://help.gorattle.com/en/articles/6045050-how-to-use-the-auto-create-event-feature.md): This article explains what the Auto-create event feature is and how to set it up.
+- [Atlas: Visualize your sales process](https://help.gorattle.com/en/articles/8259705-atlas-visualize-your-sales-process.md): Learn how you can use Atlas to visually map your sales process, identify gaps, and drive process adherence.
+- [How to set up Support Flow?](https://help.gorattle.com/en/articles/7730920-how-to-set-up-support-flow.md)
+- [Using Analytics](https://help.gorattle.com/en/articles/8010184-using-analytics.md): A comprehensive overview of your usage of Rattle with actionable insights.
+- [Google Calendar: Integration and overview](https://help.gorattle.com/en/articles/5671219-google-calendar-integration-and-overview.md): Learn how to integrate with Google Calendar and use "Meetings" feature in Rattle
+- [MS Teams: Integration with Rattle](https://help.gorattle.com/en/articles/7045791-ms-teams-integration-with-rattle.md): How to Integrate Rattle with MS Teams
+- [Gainsight: Integration with Rattle](https://help.gorattle.com/en/articles/6149563-gainsight-integration-with-rattle.md): Integrate Gainsight using your domain and API access key
+- [Outreach: Integration and field mapping](https://help.gorattle.com/en/articles/5671330-outreach-integration-and-field-mapping.md): Learn how to add Outreach to Rattle, and keep map fields between Salesforce and Outreach.
+- [Zendesk: Integration with Rattle](https://help.gorattle.com/en/articles/6699359-zendesk-integration-with-rattle.md): How to Integrate with Zendesk
+- [Chorus: Integration and data access](https://help.gorattle.com/en/articles/8358511-chorus-integration-and-data-access.md)
+- [Zoom: Permissions for integration](https://help.gorattle.com/en/articles/8287532-zoom-permissions-for-integration.md): Learn how to set up Zoom for Rattle to generate meeting summaries, insights and next steps from recorded Zoom calls
+- [Gong: Permissions and integration](https://help.gorattle.com/en/articles/8672872-gong-permissions-and-integration.md): Learn how to integrate Gong with your Rattle account
+- [Hubspot: Integration with Rattle](https://help.gorattle.com/en/articles/6699372-hubspot-integration-with-rattle.md): How to integrate with Hubspot
+- [How to integrate and use Clari with Rattle](https://help.gorattle.com/en/articles/9004859-how-to-integrate-and-use-clari-with-rattle.md): Learn how you can integrate Clari and use it to push insights from Clari to Slack.
+- [Configuring single sign-on \(SSO\) for Rattle](https://help.gorattle.com/en/articles/6025534-configuring-single-sign-on-sso-for-rattle.md): A guide to setting up your SSO for Rattle though your identity Provider
+- [How to add your teammates to Rattle](https://help.gorattle.com/en/articles/5688514-how-to-add-your-teammates-to-rattle.md): Learn how to invite your teammates to Rattle
+- [How will the 'Force SFDC integration' toggle affect my team?](https://help.gorattle.com/en/articles/8707342-how-will-the-force-sfdc-integration-toggle-affect-my-team.md): Learn how this global setting will impact your users
+- [User roles within Rattle](https://help.gorattle.com/en/articles/6421340-user-roles-within-rattle.md): Understanding the differences between the Super Admin, Admin, and Member roles in Rattle.
+- [Subscription Tab](https://help.gorattle.com/en/articles/7992709-subscription-tab.md)
+- [Monitoring inactive resources and how to troubleshoot them](https://help.gorattle.com/en/articles/8984869-monitoring-inactive-resources-and-how-to-troubleshoot-them.md): Learn how to resolve inactive resources and deleted fields
+- [How to set up Rattle Sandbox](https://help.gorattle.com/en/articles/9496794-how-to-set-up-rattle-sandbox.md): Use Rattle Sandbox to test workflows in a sandbox workspace before publishing to production.
+
+## Weekly release notes
+
+- [Release Notes: June 28, 2025](https://help.gorattle.com/en/articles/11672247-release-notes-june-28-2025.md)
+- [Release Notes: June 25, 2025](https://help.gorattle.com/en/articles/11647070-release-notes-june-25-2025.md)
+- [Release Notes: Jun 21, 2024](https://help.gorattle.com/en/articles/9506221-release-notes-jun-21-2024.md)
+- [Release Notes: May 27, 2024](https://help.gorattle.com/en/articles/9383637-release-notes-may-27-2024.md)
+- [Release Notes: March 12, 2024](https://help.gorattle.com/en/articles/9056543-release-notes-march-12-2024.md): 🦖 New at Rattle: Clari Integration, AI Call Signals, Workflows, Admin Controls
+- [Release Notes: March 5, 2024](https://help.gorattle.com/en/articles/9033597-release-notes-march-5-2024.md): 🦖 New at Rattle: Clari Integration, Child Records, Meeting DMs, and Board
+
+## FAQs
+
+- [How to Resolve a "Field not found" Error](https://help.gorattle.com/en/articles/7277557-how-to-resolve-a-field-not-found-error.md): Follow these steps if you receive this error while updating an existing workflow.
+- [Salesforce Winter Release '23](https://help.gorattle.com/en/articles/6587785-salesforce-winter-release-23.md): Learn more about Salesforce retiring Workflows and what Rattle is doing
+- [Rattle Private Channels](https://help.gorattle.com/en/articles/6516418-rattle-private-channels.md): Send alerts to a channel created specifically for a user for a single workflow.
+- [What happens when I click "Send Sample Message"?](https://help.gorattle.com/en/articles/5689670-what-happens-when-i-click-send-sample-message.md): This articles tells you how to use "Send Sample Message"
+- [I reached the active rule limit. How can I increase it?](https://help.gorattle.com/en/articles/6060531-i-reached-the-active-rule-limit-how-can-i-increase-it.md): If you received a message stating you've reached the active rule or process limit here is how you can increase that limit!
+- [Troubleshoot: My time-based workflow isn't firing](https://help.gorattle.com/en/articles/5812681-troubleshoot-my-time-based-workflow-isn-t-firing.md): Simple fixes to make sure your time-based workflow stays on time
+- [Opening Text Tips and Tricks](https://help.gorattle.com/en/articles/6076218-opening-text-tips-and-tricks.md): Some of our favorite tips and tricks for your workflow opening text!
+- [How to send alerts to a private Slack channel?](https://help.gorattle.com/en/articles/5196913-how-to-send-alerts-to-a-private-slack-channel.md): Learn how to send Rattle alerts to a private channel in Slack
+- [Using the Embedded Images Feature](https://help.gorattle.com/en/articles/6502265-using-the-embedded-images-feature.md): How to create shareable content from Rattle alerts!
+- [Prior Value Fields and History Tracking Fields](https://help.gorattle.com/en/articles/6286889-prior-value-fields-and-history-tracking-fields.md): Learn how to use prior field values when creating conditions and in message body fields
+- [Creating Date Conditions Relative to TODAY](https://help.gorattle.com/en/articles/6450900-creating-date-conditions-relative-to-today.md): Three ways to configure a condition that compares a date field to today.
+- [What is an inspiration library?](https://help.gorattle.com/en/articles/5689462-what-is-an-inspiration-library.md): This article will give you an idea of what an inspiration library is, and how can you use it.
+
+## Best practices
+
+- [Visibility Alert Best Practices](https://help.gorattle.com/en/articles/6675322-visibility-alert-best-practices.md): How to build effective visibility alerts for your team
+- [Action Based Alert Best Practices](https://help.gorattle.com/en/articles/6675724-action-based-alert-best-practices.md): How to build effective action based alerts for your team
+- [Wizard: Limitations & Best Practices](https://help.gorattle.com/en/articles/12975696-wizard-limitations-best-practices.md): This article outlines the current limitations and restrictions for Rattle Wizard when working with Account and Opportunity object views, along with best practices to optimize your experience.
+
+## Library: Recorded training videos
+
+- [Recorded Webinar: Meeting Intelligence Prompt Best Practices](https://help.gorattle.com/en/articles/8653231-recorded-webinar-meeting-intelligence-prompt-best-practices.md): Join Brooke Simmons and Tom Cheriyan for an overview of Rattle's Meeting Intelligence feature and best practices for writing custom prompts
+- [Recorded Webinar: Deal Rooms Setup and Best Practices](https://help.gorattle.com/en/articles/8701071-recorded-webinar-deal-rooms-setup-and-best-practices.md): Join Brooke Simmons and Ike Shepardson for an overview of Rattle's Deal Rooms.
+
+## Homepage - Case studies
+
+- [Rippling & Moveworks reduced deals stuck in stage by 70% with Deal Rooms](https://help.gorattle.com/en/articles/8974655-rippling-moveworks-reduced-deals-stuck-in-stage-by-70-with-deal-rooms.md)
+- [Zip & Crunchbase save hours each week on call reviews with Meeting Intelligence](https://help.gorattle.com/en/articles/8975285-zip-crunchbase-save-hours-each-week-on-call-reviews-with-meeting-intelligence.md)
+- [Algolia & LogDNA wait minutes, not days for Approvals](https://help.gorattle.com/en/articles/8975290-algolia-logdna-wait-minutes-not-days-for-approvals.md)
+- [Checkout.com & PartnerStack are 30% more accurate with their forecasts using Reports](https://help.gorattle.com/en/articles/8975296-checkout-com-partnerstack-are-30-more-accurate-with-their-forecasts-using-reports.md)
+- [Miro & People Data Labs smashed their goals with Leaderboard](https://help.gorattle.com/en/articles/8975298-miro-people-data-labs-smashed-their-goals-with-leaderboard.md)
+- [Abnormal Security & Rep Data save reps 3 hours/week with Board](https://help.gorattle.com/en/articles/8975299-abnormal-security-rep-data-save-reps-3-hours-week-with-board.md)
+- [Qualified & Terminus increased productivity 1.5X with Atlas](https://help.gorattle.com/en/articles/8975307-qualified-terminus-increased-productivity-1-5x-with-atlas.md)
+- [Workflow](https://help.gorattle.com/en/articles/8975321-workflow.md)

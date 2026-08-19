@@ -1,0 +1,64 @@
+generated: '2026-08-13'
+method: searched
+source: https://www.gorattle.com/security
+note: >-
+  Rattle publishes no API of its own, so there is no OpenAPI, securityScheme, error
+  format or pagination convention to derive conformance from. Every entry below is
+  asserted from the company's own published security page or from a probe recorded in
+  this repo — nothing is inferred from a specification, because none exists.
+standards:
+- id: soc2
+  conforms: true
+  evidence: AICPA SOC badge and "third-party audits" statement on https://www.gorattle.com/security
+- id: iso-27001
+  conforms: true
+  evidence: '"ISO Certified" badge on https://www.gorattle.com/security'
+- id: gdpr
+  conforms: true
+  evidence: GDPR badge on https://www.gorattle.com/security; https://www.gorattle.com/privacy-policy
+- id: oauth2
+  conforms: true
+  applies_to: outbound
+  evidence: >-
+    "OAUTH 2.0 API calls, only" on https://www.gorattle.com/security — Rattle authenticates
+    to Salesforce, Slack and other tenant systems over OAuth 2.0 as a CONSUMER. Rattle
+    does not expose an OAuth-protected API of its own, so this is not an inbound
+    authorization surface.
+- id: saml2-sso
+  conforms: true
+  evidence: >-
+    SSO/MFA listed on https://www.gorattle.com/security; SSO configuration documented at
+    https://help.gorattle.com/en/articles/6025534-configuring-single-sign-on-sso-for-rattle
+- id: salesforce-connected-app
+  conforms: true
+  evidence: >-
+    Rattle and Von are both approved as Salesforce Connected Apps under the September
+    2025 security measures — https://help.gorattle.com/en/articles/12292789-approving-rattle-as-a-connected-app
+    and https://help.gorattle.com/en/articles/13133800-approving-von-as-a-connected-app
+- id: rfc9116-security-txt
+  conforms: false
+  evidence: >-
+    /.well-known/security.txt returns 404 on gorattle.com, www.gorattle.com and
+    vonlabs.ai (probed 2026-08-13). The 200 on help.gorattle.com is Intercom's vendor
+    document — see well-known/rattle-well-known.yml.
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: no public API surface to evaluate
+- id: openapi
+  conforms: false
+  evidence: >-
+    No OpenAPI/Swagger found at any host root or docs path — api.gorattle.com does not
+    resolve; api.vonlabs.ai answers but 404s /openapi.json, /openapi.yaml, /swagger.json,
+    /v1/openapi.json, /docs, /redoc and /api-docs (probed 2026-08-13).
+- id: asyncapi
+  conforms: false
+  evidence: no published event, streaming or webhook surface
+- id: mcp
+  conforms: false
+  evidence: >-
+    No MCP endpoint; mcp.vonlabs.ai does not resolve and api.vonlabs.ai/mcp 404s. Von's
+    own marketing positions its native org-wide integrations as an alternative to
+    building and maintaining an MCP server.
+- id: a2a
+  conforms: false
+  evidence: /.well-known/agent-card.json and /.well-known/agent.json 404 on every host

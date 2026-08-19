@@ -1,4 +1,4 @@
-generated: '2026-07-20'
+generated: '2026-08-13'
 method: searched
 probe: true
 source: https://www.gorattle.com/security
@@ -8,18 +8,32 @@ certifications:
 - ISO 27001
 - GDPR
 practices:
-- Encryption at rest and in transit (TLS 1.2/HTTPS)
+- OAuth 2.0 only for third-party API calls (Salesforce/Slack permissions honored)
+- Encryption at rest and in transit
 - Annual third-party penetration testing
+- Regular internal vulnerability scanning
+- Independent third-party audits
 - Role-based access controls
-- SAML 2.0 SSO / MFA
-- Daily encrypted backups on Amazon S3
-- Documented incident response process
+- SSO and MFA
+- Documented six-step incident handling process
+- Thorough backups
 - Security awareness training and employee background checks
+hosting:
+  provider: AWS
+  region: us-west-2 (Oregon)
 evidence:
 - source: https://www.gorattle.com/security
+  http_status: 200
   keywords:
   - soc 2
-  - iso 27001
+  - aicpa soc
+  - iso certified
   - gdpr
-  - trust center
   - penetration testing
+  - trust center
+notes: >-
+  Certification badges (AICPA SOC, ISO, GDPR) are displayed on the Rattle security
+  page; no report portal, sub-processor list, uptime/SLA commitment or dedicated
+  security contact address is published there. No equivalent security or trust page
+  exists yet on the Von brand site (https://vonlabs.ai/security returned 404 on
+  2026-08-13).

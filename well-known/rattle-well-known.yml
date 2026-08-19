@@ -1,0 +1,104 @@
+generated: '2026-08-13'
+method: probed
+source: live GET of /.well-known/* on every Rattle and Von host
+summary:
+  hosts_probed: 8
+  paths_probed: 8
+  real_documents: 0
+  note: >-
+    No Rattle-authored /.well-known document is served on any host. The only 200
+    carrying a real document is help.gorattle.com/.well-known/security.txt, and that
+    file is Intercom's — its Canonical field points at https://app.intercom.com/.well-known/security.txt
+    and its contacts are security@intercom.com / bugcrowd.com/intercom. The Rattle help
+    center is an Intercom-hosted subdomain, so the document belongs to the vendor, not
+    to Rattle. No WellKnown or SecurityTxt pointer is emitted for this repo.
+    app.gorattle.com and app.vonlabs.ai are single-page-app catch-alls that answer 200
+    with the same HTML shell for every path, including /robots.txt — recorded as
+    soft-200 misses, not documents.
+hosts:
+- host: https://www.gorattle.com
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/oauth-protected-resource, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+  - {path: /.well-known/agent-card.json, status: 404}
+  - {path: /.well-known/agent.json, status: 404}
+- host: https://gorattle.com
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+  - {path: /.well-known/agent-card.json, status: 404}
+  - {path: /.well-known/agent.json, status: 404}
+- host: https://app.gorattle.com
+  note: SPA catch-all — returns 200 with a 700-byte HTML shell for arbitrary paths
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 200, content_type: text/html, document: false, reason: spa-shell}
+  - {path: /.well-known/oauth-authorization-server, status: 200, content_type: text/html, document: false, reason: spa-shell}
+  - {path: /.well-known/oauth-protected-resource, status: 200, content_type: text/html, document: false, reason: spa-shell}
+  - {path: /.well-known/api-catalog, status: 200, content_type: text/html, document: false, reason: spa-shell}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+  - {path: /.well-known/agent-card.json, status: 404}
+  - {path: /.well-known/agent.json, status: 404}
+- host: https://help.gorattle.com
+  note: Intercom-hosted help center on a Rattle subdomain
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    content_type: text/plain
+    document: true
+    owner: intercom
+    ours: false
+    reason: >-
+      Canonical https://app.intercom.com/.well-known/security.txt; Contact
+      security@intercom.com and https://bugcrowd.com/intercom. Vendor document served
+      through the CNAME'd help-center subdomain — not a Rattle disclosure policy.
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+  - {path: /.well-known/agent-card.json, status: 404}
+  - {path: /.well-known/agent.json, status: 404}
+- host: https://status.gorattle.com
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/agent-card.json, status: 404}
+  - {path: /.well-known/agent.json, status: 404}
+- host: https://vonlabs.ai
+  note: successor brand (Von)
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/oauth-protected-resource, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+  - {path: /.well-known/agent-card.json, status: 404}
+  - {path: /.well-known/agent.json, status: 404}
+- host: https://app.vonlabs.ai
+  note: SPA catch-all — returns 200 with the same 3,096-byte HTML shell for every path
+  documents:
+  - {path: /.well-known/security.txt, status: 200, content_type: text/html, document: false, reason: spa-shell}
+  - {path: /.well-known/openid-configuration, status: 200, content_type: text/html, document: false, reason: spa-shell}
+  - {path: /.well-known/oauth-authorization-server, status: 200, content_type: text/html, document: false, reason: spa-shell}
+  - {path: /.well-known/api-catalog, status: 200, content_type: text/html, document: false, reason: spa-shell}
+  - {path: /.well-known/agent-card.json, status: 200, content_type: text/html, document: false, reason: spa-shell}
+  - {path: /.well-known/agent.json, status: 200, content_type: text/html, document: false, reason: spa-shell}
+- host: https://api.vonlabs.ai
+  note: nginx origin — resolves and answers, but every probed path 404s
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/oauth-protected-resource, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+  - {path: /.well-known/agent-card.json, status: 404}
+  - {path: /.well-known/agent.json, status: 404}

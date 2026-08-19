@@ -1,8 +1,38 @@
-generated: '2026-07-20'
+generated: '2026-08-13'
 method: searched
 source: https://status.gorattle.com/
 status_page: https://status.gorattle.com/
+change_log: https://help.gorattle.com/en/collections/7377751-weekly-release-notes
+versioning:
+  scheme: none
+  current: null
+  docs: null
+  note: no API and no published product version scheme; releases are identified by date only
+deprecation:
+  policy_url: null
+  sunset_header: false
+sla:
+  url: null
+  uptime_target: null
+product_lifecycle:
+- product: Rattle
+  status: maintained
+  note: >-
+    Still fully supported for existing customers after the May 2026 rebrand, but no
+    longer the forward product — the company states it stopped developing Rattle to
+    build Von from scratch.
+  source: https://vonlabs.ai/blog/rattle-to-von
+- product: Von
+  status: current
+  note: >-
+    Successor AI RevOps product at https://vonlabs.ai, announced 2026-05-29. Onboarding
+    documentation lives in the same Rattle help center
+    (https://help.gorattle.com/en/collections/17105049-von-help-center).
+  source: https://vonlabs.ai/blog/rattle-to-von
+deprecated_operations: []
 notes: >-
-  Rattle publishes a public status page. No public API, versioning policy,
-  deprecation policy, or SLA document was found on the provider surface as of
-  this pass; Rattle is a sales-execution SaaS with no public developer API.
+  Rattle publishes a public status page (Vercel/Next.js-hosted; no Statuspage-style
+  /api/v2/status.json component feed — that path 404s) and a dated release-notes
+  collection in its help center. No API versioning policy, deprecation policy, Sunset /
+  Deprecation header support, or SLA/uptime commitment is published, because there is no
+  public developer API. Von has no status page of its own as of 2026-08-13.
