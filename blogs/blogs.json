@@ -9,13 +9,13 @@
       "method": "feed"
     },
     {
-      "source": "https://help.gorattle.com/",
-      "feed_url": "https://help.gorattle.com/feed.xml",
+      "source": "https://www.gorattle.com/get-started",
+      "feed_url": "https://www.gorattle.com/get-started",
       "title": "",
       "saved": 0,
-      "method": "discovered"
+      "method": "none"
     }
   ],
   "post_count": 25,
-  "fetched": "2026-08-15T12:11:08Z"
+  "fetched": "2026-08-22T20:20:02Z"
 }
