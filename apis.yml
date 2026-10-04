@@ -68,7 +68,7 @@ tags:
 - Microsoft Teams
 - Sales Automation
 - Revenue Intelligence
-- Workflow-Automation
+- Workflow Automation
 - Artificial Intelligence
 tags_raw:
 - Company
@@ -82,6 +82,7 @@ tags_raw:
 - Revenue Intelligence
 - Workflow Automation
 - Artificial Intelligence
+- Workflow-Automation
 apis: []
 maintainers:
 - FN: Kin Lane
